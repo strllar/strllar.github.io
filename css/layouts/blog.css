@@ -156,6 +156,13 @@ h3 {
     background: none;
 }
 
+.brand-logo {
+	margin: 1em;
+	border-radius: 75px;
+    float: left;
+	background: rgb(255, 255, 255);
+}
+
 @media (min-width: 48em) {
     .content {
         padding: 2em 3em 0;
@@ -172,4 +179,11 @@ h3 {
         top: 0;
         bottom: 0;
     }
+
+	.brand-logo {
+		margin: -80% 10% 0 0;
+		border-radius: 75px;
+		float: right;
+		background: rgb(255, 255, 255);
+	}
 }
