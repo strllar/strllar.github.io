@@ -163,6 +163,31 @@ h3 {
 	background: rgb(255, 255, 255);
 }
 
+.toolbar {
+    background: rgb(61, 79, 93);
+    color: #fff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-width: 2em;
+}
+
+.tool-icon {
+	margin: 0;
+}
+
+.toolbar a{
+	color: #fff;
+}
+
+.toolbar a.active .fa-stack .fa-stack-2x{
+	color: rgb(176, 202, 219);
+}
+
+.toolbar a:hover .fa-stack .fa-stack-2x{
+	color: rgb(61, 146, 201);
+}
+
 @media (min-width: 48em) {
     .content {
         padding: 2em 3em 0;
@@ -186,4 +211,13 @@ h3 {
 		float: right;
 		background: rgb(255, 255, 255);
 	}
+
+	.toolbar {
+		flex-flow: column;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+		right: 0;
+    }
+
 }
