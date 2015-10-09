@@ -1,4 +1,7 @@
-markdown: rdiscount
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  input: GFM
 brand-title: STRLLAR Lab
 brand-tagline: Vanguard of Stellar Explorers
 
