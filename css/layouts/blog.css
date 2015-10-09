@@ -120,16 +120,16 @@ h3 {
     background: #999;
     font-size: 80%;
 }
-    .post-category-design {
+    .post-category-tech {
         background: #5aba59;
     }
-    .post-category-pure {
+    .post-category-fin {
         background: #4d85d1;
     }
-    .post-category-yui {
+    .post-category-site {
         background: #8156a7;
     }
-    .post-category-js {
+    .post-category-red {
         background: #df2d4f;
     }
 
@@ -189,6 +189,17 @@ h3 {
 }
 
 .listing-item time{color:#999999;}
+
+header.post {
+	padding: 0.5em 0px;
+	border-bottom: 1px solid #CCC;
+}
+
+header.post h1 {
+	font-family: "Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+	font-size: 1.6em;
+	color: #000;
+}
 
 @media (min-width: 48em) {
     .content {

@@ -2,14 +2,28 @@
 <section class="post">
   <header class="post-header">
     <!-- <img class="post-avatar" alt="Tilo Mitra&#x27;s avatar" height="48" width="48" src="img/common/tilo-avatar.png"> -->
-    <h2 class="post-title">{{post.title}}</h2>
+    <a href={{post.url}}>
+	  <h2 class="post-title">{{post.title}}</h2>
+	</a>
     <p class="post-meta">
-      By <a href="#" class="post-author">{{post.author}}</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a>
+	  {% for cate in  post.categories %}
+	  {% if cate == "fin" %}
+	  <a class="post-category post-category-fin" href="#">Fin</a>
+	  {% endif %}
+	  {% if cate == "tech" %}
+	  <a class="post-category post-category-tech" href="#">Tech</a>
+	  {% endif %}
+	  {% if cate == "site" %}
+	  <a class="post-category post-category-site" href="#">Site</a>
+	  {% endif %}
+	  {% if cate == "red" %}
+	  <a class="post-category post-category-red" href="#">RED</a>
+	  {% endif %}
+	  {% endfor %}
     </p>
   </header>
 
   <div class="post-description">
 	{{post.excerpt}}
   </div>
-  <a href={{post.url}}>Read more...</a>
 </section>
