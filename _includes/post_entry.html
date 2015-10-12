@@ -6,17 +6,17 @@
 	  <h2 class="post-title">{{post.title}}</h2>
 	</a>
     <p class="post-meta">
-	  {% for cate in  post.categories %}
-	  {% if cate == "fin" %}
+	  {% for tag in  post.tags %}
+	  {% if tag == "Fin" %}
 	  <a class="post-category post-category-fin" href="#">Fin</a>
 	  {% endif %}
-	  {% if cate == "tech" %}
+	  {% if tag == "Tech" %}
 	  <a class="post-category post-category-tech" href="#">Tech</a>
 	  {% endif %}
-	  {% if cate == "site" %}
-	  <a class="post-category post-category-site" href="#">Site</a>
+	  {% if tag == "Lab" %}
+	  <a class="post-category post-category-lab" href="#">Lab</a>
 	  {% endif %}
-	  {% if cate == "red" %}
+	  {% if tag == "RED" %}
 	  <a class="post-category post-category-red" href="#">RED</a>
 	  {% endif %}
 	  {% endfor %}
