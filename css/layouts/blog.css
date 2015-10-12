@@ -195,6 +195,11 @@ header.post {
 	border-bottom: 1px solid #CCC;
 }
 
+header.post .post-time {
+	float: right;
+	color: #5B6A72;
+}
+
 section.post h1,h2,h3,h4,h5,h6 {
 	font-family: "Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;
 	font-size: 1.6em;
@@ -206,7 +211,8 @@ section.post {
 	line-height: 1.8em;
 }
 
-section.post p {
+section.post > p {
+	font-size: 1.2em;
 	margin-bottom: 1.5em;
 	line-height: 1.65;
 }
