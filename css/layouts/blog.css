@@ -195,10 +195,24 @@ header.post {
 	border-bottom: 1px solid #CCC;
 }
 
-header.post h1 {
+section.post h1,h2,h3,h4,h5,h6 {
 	font-family: "Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;
 	font-size: 1.6em;
-	color: #000;
+	color: #5B6A72;
+}
+
+section.post {
+	color: #444;
+	line-height: 1.8em;
+}
+
+section.post p {
+	margin-bottom: 1.5em;
+	line-height: 1.65;
+}
+
+section.post li {
+	margin: 0.8em 0px 0.5em;
 }
 
 @media (min-width: 48em) {
