@@ -12,9 +12,9 @@ Today we launched our new website. [strllar.org] [origin] was online since 28th 
 
 Two weeks ago, we [participated](https://github.com/stellar/docs/blob/master/validators.md) in the joint activation of new stellar live network. Before the stellar production network launched, we had started an experimental network based on the [stellar-core](), which we called "KLM". We post the latest status we acquired about these two networks in [XLM](/xlm "Official Stellar Network") and [KLM](/klm "Our Forked Experimental Network") respectively.
 
-In the past one year, we have designed various applications based on the Stellar protocol, such as offline wallet, mobile wallet, engineering  client, gateway infrastructure, federation server, analytical ledger explorer, node monitoring/maintaining tools, etc. These open source applications will be presented in the future.
+In the past one year, we have designed various applications based on the Stellar protocol, such as offline wallet, mobile wallet, engineering  client, gateway infrastructure, federation server, analytical ledger explorer, contract composer, node monitoring/maintaining tools, etc. These open source applications will be presented in the future.
 
-Last but not least, we will be glad to have your messages at (lab *at* strllar.org)
+Now we are on trajectory of exploring, any message from you may be helpful. Feel free to mail us at (lab *at* strllar.org).
 
 
 [origin]:/origin "our initial version"
