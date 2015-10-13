@@ -7,7 +7,9 @@ layout: page
   <h1 class="content-subhead">Pinned Post</h1>
   {% for post in site.posts %}
   {% if post.pinned %}
+  {% if page.tag_filter == null or post.tags contains page.tag_filter %}
   {% include post_entry_lite.html post=post %}
+  {% endif %}
   {% endif %}
   {% endfor %}
 </div>
@@ -15,8 +17,10 @@ layout: page
 <div class="posts">
   <h1 class="content-subhead">Recent Posts</h1>
   {% for post in site.posts %}
-  {% if post.pinned == false%}
+  {% if post.pinned == null or post.pinned == false%}
+  {% if page.tag_filter == null or post.tags contains page.tag_filter %}
   {% include post_entry.html post=post %}
+  {% endif %}
   {% endif %}
   {% endfor %}
 </div>
