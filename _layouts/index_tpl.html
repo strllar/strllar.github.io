@@ -5,6 +5,7 @@ layout: page
 <!-- A wrapper for all the blog posts -->
 <div class="posts">
   <h1 class="content-subhead">Pinned Post</h1>
+  <ul>
   {% for post in site.posts %}
   {% if post.pinned %}
   {% if page.tag_filter == null or post.tags contains page.tag_filter %}
@@ -12,6 +13,7 @@ layout: page
   {% endif %}
   {% endif %}
   {% endfor %}
+  </ul>
 </div>
 
 <div class="posts">

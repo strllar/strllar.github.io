@@ -2,9 +2,8 @@
 <section class="post">
   <header class="post-header">
     <!-- <img class="post-avatar" alt="Tilo Mitra&#x27;s avatar" height="48" width="48" src="img/common/tilo-avatar.png"> -->
-    <a href={{post.url}}>
-	  <h2 class="post-title">{{post.title}}</h2>
-	</a>
+
+	<h2 class="post-title">{{post.title}}</h2>
     <p class="post-meta">
 	  {% for tag in  post.tags %}
 	  {% if tag == "Fin" %}
@@ -25,5 +24,8 @@
 
   <div class="post-description">
 	{{post.excerpt}}
+	<span class="go-next">
+	  <a href={{post.url}}>more..>></a>
+	</span>
   </div>
 </section>

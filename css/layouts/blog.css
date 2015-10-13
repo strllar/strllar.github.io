@@ -90,7 +90,7 @@ h3 {
 }
 
 .post {
-    padding-bottom: 2em;
+    padding-bottom: 0em;
 }
 .post-title {
     font-size: 2em;
@@ -190,34 +190,28 @@ h3 {
 
 .listing-item time{color:#999999;}
 
-header.post {
+header.post-view {
 	padding: 0.5em 0px;
 	border-bottom: 1px solid #CCC;
 }
 
-header.post .post-time {
+header.post-view .post-time {
 	float: right;
 	color: #5B6A72;
 }
 
-section.post h1,h2,h3,h4,h5,h6 {
-	font-family: "Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;
-	font-size: 1.6em;
-	color: #5B6A72;
-}
-
-section.post {
+section.post-view {
 	color: #444;
 	line-height: 1.8em;
 }
 
-section.post > p {
+section.post-view > p {
 	font-size: 1.2em;
 	margin-bottom: 1.5em;
 	line-height: 1.65;
 }
 
-section.post li {
+section.post-view li {
 	margin: 0.8em 0px 0.5em;
 }
 
