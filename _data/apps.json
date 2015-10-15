@@ -1,0 +1,21 @@
+[
+	{
+		id: "blog",
+		name: "Weblog",
+		ico: "fa-list",
+		url: "/"
+	},
+	{
+		id: "quorum",
+		name: "Quorum Explorer",
+		ico: "fa-globe",
+		url: "/quorum"
+	},
+	{
+		id: "ledger",
+		name: "Ledger Explorer",
+		ico: "fa-chain",
+		url: "/ledger"
+	},
+	
+]
