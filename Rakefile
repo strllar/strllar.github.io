@@ -104,6 +104,11 @@ task :preview do
   system "jekyll serve -w"
 end # task :preview
 
+desc "Launch docker environment"
+task :docker do
+  system "docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 127.0.0.1:4000:4000 jekyll/jekyll:pages"
+end # task :docker
+
 # Public: Alias - Maintains backwards compatability for theme switching.
 task :switch_theme => "theme:switch"
 
