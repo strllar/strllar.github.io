@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: scroll;
+    text-align:center;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainContainer{
+    background: repeat;
+    overflow:hidden;
+}
+
+.headContainer{
+    background: center top no-repeat;
+    width: 1200px;
+    margin:0 auto;
+}
+
+.bodyContainer{
+    background: center top no-repeat;
+    width: 1200px;
+    margin:0 auto;
+}
+
+.divlanguage{
+    margin:0 auto;
+    width: 860px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.divheadbtn{
+    margin:0 auto;
+    width: 888px;
+    text-align: right;
+    padding-top: 175px;
+}
+
+.divheadbtn_en{
+    padding-top: 55px;
+}
+
+.taildiv{
+    width:100%;
+    height: 62px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.8em;
+    line-height: 1em;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.copyright{
+    list-style-type:none;
+}
